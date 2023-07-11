@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  color: dodgerblue;
+}
+
+.App {
+  text-align: center;
+  width: 50%;
+  margin: 10% auto;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+  color: black;
+}
+
+input:hover {
+  background-color: orange;
+  color: black;
+}
+
+#tomato {
+  width: 25%;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px ridge goldenrod;
+}
+
+h1 {
+  margin-top: -10px;
+}
+
+#review,
+#post,
+#count {
+  border: 3px double gray;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+}
+
+#red{
+  color: red;
+  -webkit-text-stroke-width: 0px;
+}
